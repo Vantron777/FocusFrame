@@ -58,7 +58,7 @@
                 </div>
                 <button class="header-btn" type="button">Sign up</button>
             </div>
-            <div class="menu is-open">
+            <div class="menu">
                 <div class="mob-menu">
                     <button type="button" class="mob-menu-btn">
                         <svg class="mob-menu-icon" width="32" height="32">
@@ -92,72 +92,122 @@
         <!-- Hero -->
         <section class="hero">
             <div class="container">
-                <h1>Discover the magic of photography in our school</h1>
+                <!-- <h1>Discover the magic of photography in our school</h1> -->
             </div>
         </section>
-        <!-- Avertisement -->
-        <section class="avertisement">
-            <div class="container"></div>
+        <!-- Advertisement -->
+        <section class="advertisement">
+            <div class="advertisement-div container">
+                <h2 class="advertisement-text">
+                    Master
+                    <span class="advertisement-text-span">your photography</span> skills with
+                    us!
+                </h2>
+            </div>
         </section>
         <!-- About us -->
-        <section class="about-us">
-            <div class="container"></div>
+        <section class="container about-us">
+            <section class="about-us-section">
+                <div class="container-about">
+                    <h2 class="about-title">About <span class="about-title-us">Us</span></h2>
+                    <div class="about-us-info">
+                        <picture>
+                            <!-- Desktop one -->
+                            <source media="(min-width: 1110px)" srcset="
+                          ./src/img/about-us/about_desk_one.jpg    1x,
+                          ./src/img/about-us/about_desk_one@2x.jpg 2x
+                        " />
+                            <!-- Tablet -->
+                            <source media="(min-width: 768px)" srcset="
+                          ./src/img/about-us/about_tab.jpg    1x,
+                          ./src/img/about-us/about_tab@2x.jpg 2x
+                        " />
+                            <!-- Mobile-->
+                            <source media="(max-width: 767.98px)" srcset="
+                          ./src/img/about-us/about_mob.jpg    1x,
+                          ./src/img/about-us/about_mob@2x.jpg 2x
+                        " />
+                            <img class="img-about" src="./src/img/about-us/about_desk_one.jpg" alt="About us"
+                                width="488" height="260" />
+                        </picture>
+
+                        <ul class="about-list">
+                            <li class="about-list-item">
+                                <p class="p-about p-about-one">
+                                    Our photography school is designed to teach you everything you
+                                    need to know about this magical art. Regardless of your experience
+                                    or skill level, we offer a wide range of courses to suit your
+                                    needs and interests. Our teaching team consists of experienced
+                                    photographers who have many years of experience in this field.
+                                    They strive not only to share their knowledge, but also to inspire
+                                    you to develop and express your unique creativity.
+                                </p>
+                            </li>
+                            <li class="about-list-item">
+                                <p class="p-about p-about-two">
+                                    Our courses cover a wide range of topics, from the basics of
+                                    photography and equipment use to professional image processing and
+                                    creating impressive compositions. You will have the opportunity to
+                                    learn the technical aspects of photography, discover your own
+                                    style and develop your own visual language.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
         </section>
         <!-- Our courses -->
         <section class="our-courses">
             <div class="container">
-                <h2>Our courses</h2>
+                <h2 class="our-courses-titel">Our courses</h2>
                 <p>
                     At our photography school, we offer a variety of courses that cover all
                     aspects of this fascinating art. Regardless of your experience or skill
                     level, we have courses to suit your needs and goals.
                 </p>
-
-                <ol>
-                    <li>
+                <ul class="our-courses-list">
+                    <li class="our-courses-item">
                         <p>01</p>
                         <a href="" target="_blank">
                             <svg width="32" height="32">
-                                <use href=""></use>
+                                <use href="./images/icons (2).svg#icon-Ellipse-1"></use>
                             </svg>
                         </a>
-                        <h3>Basics of photography</h3>
+                        <h3 class="our-courses-subtitle">Basics of photography</h3>
                         <p>
                             During this course, you will be able to familiarize yourself with
                             different types of cameras, learn the basics of composition.
                         </p>
                     </li>
-
                     <li>
                         <p>02</p>
                         <a href="" target="_blank">
                             <svg width="32" height="32">
-                                <use href=""></use>
+                                <use href="./images/icons (2).svg#icon-Ellipse-1"></use>
                             </svg>
                         </a>
-                        <h3>Landscape photography</h3>
+                        <h3 class="our-courses-subtitle">Landscape photography</h3>
                         <p>
                             In this course, you'll learn how to choose the right angles, frame
                             landscapes, and create depth and perspective in your images.
                         </p>
                     </li>
-
                     <li>
-                        <p>
-                            <a href="" target="_blank">
-                                <svg width="32" height="32">
-                                    <use href=""></use>
-                                </svg>
-                            </a>
-                        <h3>Portrait photography</h3>
-                        </p>
-
+                        <p>03</p>
+                        <a href="" target="_blank">
+                            <svg width="32" height="32">
+                                <use href="./images/icons (2).svg#icon-Ellipse-1"></use>
+                            </svg>
+                        </a>
+                        <h3 class="our-courses-subtitle">Portrait photography</h3>
                         <p>
                             During this course, you will learn to choose the right lighting,
                             reproduce the mood and expressions on the faces of the models.
                         </p>
                     </li>
-                </ol>
+                </ul>
             </div>
         </section>
         <!-- Our mentors -->
